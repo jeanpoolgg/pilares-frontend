@@ -2,13 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
 
 
+/* Custom property */
+:root{
+    --padding-container: 100px 0;
+    --color-title: #001A49;
+}
+
 
 /* Configuraciónes iniciales */
 * {
     margin: 0;
     box-sizing: border-box;
 }
-
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -17,4 +22,28 @@ body {
 
 h1 {
     margin: 0;
+}
+
+/* Estilos para el Header */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: var(--padding-container);
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    min-height: 600px;
+    max-height: 800px;
+    position: relative;
+    display: grid;
+    grid-template-rows: 100px 1fr;
+}
+
+
+.nav {
+    --padding-container: 0;
 }
