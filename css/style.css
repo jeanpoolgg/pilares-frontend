@@ -175,3 +175,34 @@ h1 {
 .about__icon {
     width: 40px;
 }
+
+/* ========================== KNOWLEDGE ==================== */
+
+.knowledge {
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background-image: radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
+    background-size: 10px 10px;
+    overflow: hidden;
+}
+
+.knowledge__main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    align-items: center;
+}
+
+.knowledge__paragraph {
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+.knowledge__picture {
+    max-width: 500px;
+}
+
+.knowledge__img {
+    width: 100%;
+    display: block;
+}
