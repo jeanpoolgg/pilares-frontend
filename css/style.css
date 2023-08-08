@@ -124,14 +124,17 @@ h1 {
     margin-bottom: 20px;
 }
 
-.cta {
+.btn {
     display: inline-block;
-    background-color: #2091F9;
     justify-self: center;
-    color: #fff;
     text-decoration: none;
     padding: 13px 30px;
     border-radius: 32px;
+}
+
+.btn-primary {
+    background-color: #2091F9;
+    color: #fff;
 }
 
 /* ========================== ABOUT ==================== */
@@ -156,16 +159,16 @@ h1 {
     width: 90%;
     margin: 0 auto;
     gap: 1em;
-    overflow: hidden;
+    /* overflow: hidden; */
     grid-template-columns: repeat(auto-fit, minmax(260px, auto));
 }
 
-.about__icons {
+.about__article {
     display: grid;
     gap: 1em;
     justify-items: center;
     width: 260px;
-    overflow: hidden;
+    /* overflow: hidden; */
     margin: 0 auto;
 }
 
