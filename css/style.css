@@ -188,10 +188,8 @@ h1 {
 }
 
 .knowledge__main {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1em;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .knowledge__paragraph {
@@ -209,19 +207,16 @@ h1 {
     display: block;
 }
 
-
-.flex--column {
-    display: flex;
-    flex-direction: column;
-}
-
 @media screen and (min-width: 790px) {  
     .knowledge  {
         text-align: left;
     }
 
-    .flex--column {
+    .knowledge__main {
         display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1em;
+        align-items: center;
     }
 
     .knowledge__picture {
