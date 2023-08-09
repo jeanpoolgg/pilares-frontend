@@ -6,6 +6,11 @@
 :root{
     --padding-container: 100px 0;
     --color-title: #001A49;
+    --color-plan: #696871;
+    --color-price: #1D293F;
+    --bg-boton: #FFF;
+    --color-btn: #5454D4;
+    --color-items: #696871;
 }
 
 
@@ -137,7 +142,7 @@ h1 {
     color: #fff;
 }
 
-/* ========================== ABOUT ==================== */
+/* ========================== ABOUT ========================== */
 
 .about {
     text-align: center;
@@ -176,7 +181,7 @@ h1 {
     width: 40px;
 }
 
-/* ========================== KNOWLEDGE ==================== */
+/* ========================== KNOWLEDGE ========================== */
 
 .knowledge {
     text-align: center;
@@ -206,6 +211,76 @@ h1 {
     width: 100%;
     display: block;
 }
+
+
+/* ========================== PRICE ========================== */
+
+.price {
+    text-align: center;
+}
+
+.price__main {
+    padding-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5em;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.plan {
+    background-color: #e5e5f7;
+    text-align: center;
+    border-radius: 10px;
+    width: 330px;
+    padding: 40px;
+}
+
+.plan--best {
+    background-color: #FF7143;
+    --color-plan: rba(255 255 255 / 75%);
+    --color-price: #FFF;
+    --bg-boton: #9f3919;
+    --color-btn: #FFF;
+    --color-items: #fff;
+    width: 370px;
+    padding: 60px 40px;
+}
+
+.plan__name {
+    color: var(--color-plan);
+    margin-bottom: 15px;
+    font-weight: 300;
+}
+
+.plan__price {
+    font-size: 2.5rem;
+    color: var(--color-price);
+}
+
+.plan__items{
+    margin-top: 35px;
+    display: grid;
+    gap: 1em;
+    font-weight: 300;
+    font-size: 1.2rem;
+    margin-bottom: 50px;
+    color: var(--color-items);
+}
+
+.plan__btn {
+    display: block;
+    padding: 20px 0;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: var(--bg-boton);
+    font-weight: 600;
+    color: var(--color-btn);
+    box-shadow: 0 0 1px rgba(0,0,0,.5);
+}
+
+
+/* ========================== MEDIA QUERIES ========================== */
 
 @media screen and (min-width: 790px) {  
     .knowledge  {
