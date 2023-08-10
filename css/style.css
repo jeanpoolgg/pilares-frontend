@@ -280,6 +280,54 @@ h1 {
 }
 
 
+/* ========================== TESTIMONY ========================== */
+
+.testimony {
+    background-color: #e5e5f7;
+}
+
+.testimoney__main {
+    display: grid;
+    grid-template-columns: 50px 1fr 50px;
+    gap: 1em;
+    align-items: center;
+}
+
+.testimony__person {
+    display: grid;
+    grid-template-columns: 1fr max-content;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2em;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.testimony__person--show {
+    pointer-events: unset;
+    opacity: 1;
+    transition: opacity 1.5s;
+}
+
+.testimony__img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 50% 10%;
+}
+
+.textimony__texts {
+    max-width: 700px;
+}
+
+.testimony__arrow {
+    width: 90%;
+    cursor: pointer;
+}
+
 /* ========================== MEDIA QUERIES ========================== */
 
 @media screen and (min-width: 790px) {  
