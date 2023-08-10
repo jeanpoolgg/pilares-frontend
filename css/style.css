@@ -323,6 +323,14 @@ h1 {
     max-width: 700px;
 }
 
+.testimony__course {
+    background-color: royalblue;
+    color: #FFF;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
 .testimony__arrow {
     width: 90%;
     cursor: pointer;
