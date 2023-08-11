@@ -303,6 +303,7 @@ h1 {
     grid-row: 1/2;
     opacity: 0;
     pointer-events: none;
+    padding: 0 30px;
 }
 
 .testimony__person--show {
