@@ -288,22 +288,21 @@ h1 {
 
 .testimoney__main {
     display: grid;
-    grid-template-columns: 50px 1fr 50px;
+    grid-template-columns: 7vw 1fr 7vw;
     gap: 1em;
     align-items: center;
 }
 
 .testimony__person {
-    display: grid;
-    grid-template-columns: 1fr max-content;
-    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     gap: 2em;
     grid-column: 2/3;
     grid-row: 1/2;
     opacity: 0;
     pointer-events: none;
-    padding: 0 30px;
+    text-align: center;
 }
 
 .testimony__person--show {
@@ -325,11 +324,14 @@ h1 {
 }
 
 .testimony__course {
+    margin-top: 10px;
     background-color: royalblue;
     color: #FFF;
     padding: 5px;
     border-radius: 5px;
     display: inline-block;
+    width: 70%;
+    font-size: 0.6em;
 }
 
 .testimony__arrow {
@@ -353,5 +355,24 @@ h1 {
 
     .knowledge__picture {
         margin-bottom: 0;
+    }
+    
+    .testimoney__main{
+        grid-template-columns: 50px 1fr 50px;
+    }
+
+    .testimony__person {
+        text-align: left;
+        display: grid;
+        grid-template-columns: 1fr max-content;
+        justify-content: space-between;
+        padding: 0 30px;
+
+    }
+
+    .testimony__course {
+        margin-top: 0;
+        font-size: 0.7em;
+        width: auto;
     }
 }
