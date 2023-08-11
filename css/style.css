@@ -237,10 +237,10 @@ h1 {
 }
 
 .plan--best {
-    background-color: #FF7143;
+    background-color: #2091F9;
     --color-plan: rba(255 255 255 / 75%);
     --color-price: #FFF;
-    --bg-boton: #9f3919;
+    --bg-boton: #011C40;
     --color-btn: #FFF;
     --color-items: #fff;
     width: 370px;
@@ -288,7 +288,7 @@ h1 {
 
 .testimoney__main {
     display: grid;
-    grid-template-columns: 7vw 1fr 7vw;
+    grid-template-columns: 10vw 1fr 10vw;
     gap: 1em;
     align-items: center;
 }
