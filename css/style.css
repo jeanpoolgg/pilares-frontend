@@ -405,6 +405,17 @@ h1 {
 .questions__img {
     display: block;
 }
+
+.questions__offer {
+    padding-top: 0;
+    text-align: center;
+}
+
+.questions__copy {
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
 /* ========================== MEDIA QUERIES ========================== */
 
 @media screen and (min-width: 790px) {  
