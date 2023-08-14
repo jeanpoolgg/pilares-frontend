@@ -406,12 +406,15 @@ h1 {
     display: block;
 }
 
-.questions__offer {
+
+/* ========================== MESSAGES ========================== */
+
+.message {
     padding-top: 0;
     text-align: center;
 }
 
-.questions__copy {
+.message__text {
     width: 60%;
     margin: 0 auto;
     margin-bottom: 30px;
